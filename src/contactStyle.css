@@ -1,0 +1,22 @@
+iframe{
+    width: 750px;
+    height: 450px;
+    display: block;
+    margin: auto;
+}
+
+.contact-text{
+    text-align: justify;
+    margin: auto;
+    width: 350px;
+}
+
+
+@media (max-width: 768px) {
+
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+
+}

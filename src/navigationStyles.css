@@ -1,0 +1,34 @@
+#view, ul{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+#view{
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#view :hover{
+    color: grey;
+}
+
+
+.ul{
+    display: block;
+    cursor: pointer;
+}
+
+li{
+    cursor: pointer;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+li :hover{
+    color: grey;
+}
+
+}

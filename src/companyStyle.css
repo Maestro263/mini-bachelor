@@ -1,0 +1,44 @@
+.companysignup{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto
+}
+
+.input{
+    background-color: white;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.company-header{
+    font-size: 24pt;
+}
+
+
+@media (max-width: 768px) {
+
+    .companysignup{
+        width: 100%;
+    }
+    .input{
+        width: 400px;
+        margin: auto;
+        left: 20px;
+    }
+
+    button{
+        width: 400px;
+        margin: auto;
+        left: 20px;
+    }
+
+    .company-header{
+        margin-top: 30px;
+    }
+
+}

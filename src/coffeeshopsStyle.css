@@ -1,0 +1,33 @@
+.img{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(199, 109, 0);
+    font-size: 24pt;
+    flex-basis: calc(50% - 250px); 
+    margin: 20px;
+    text-align: center;
+    line-height: 250px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+.coffeeshops{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+
+    .coffeeshops{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+
+
+}
