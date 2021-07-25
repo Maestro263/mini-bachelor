@@ -100,7 +100,6 @@ const Navigation = () => {
                     <Route path="/CompanySignup" component={Companysignup} />
                 </Switch>
             </BrowserRouter>
-            <Footer />
         </div>
 
     );
