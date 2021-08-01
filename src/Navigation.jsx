@@ -13,7 +13,6 @@ import Logo from './images/LogoWhite.png';
 import MenuIcon from '@material-ui/icons/Menu';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import './navigationStyles.css';
-import Footer from './Footer';
 
 
 

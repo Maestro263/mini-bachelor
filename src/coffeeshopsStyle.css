@@ -20,6 +20,10 @@ a:hover{
     color: white;
 }
 
+.a-link{
+    padding: 100px;
+}
+
 .coffeeshops-header{
     text-align: center;
 }
@@ -33,6 +37,10 @@ a:hover{
 
 
 @media (max-width: 768px) {
+
+    .a-link{
+        padding: 0px;
+    }
 
     .coffeeshops{
         flex-direction: column;
